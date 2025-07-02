@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Нажми меня"/>
+        Title="MainWindow" Height="250" Width="350">
+    <Grid Name="MyGrid">
+        <Button Name="Button" 
+                Content="Кликни меня!" 
+                HorizontalAlignment="Center" 
+                Margin="0,140,0,0" 
+                VerticalAlignment="Top" 
+                Height="40" Width="150" 
+                Click="Button_Click" />
+
+        <TextBlock Name="NumberTextBlock" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,70,0,0" Text="0" 
+                   VerticalAlignment="Top" 
+                   Height="40" Width="150" 
+                   FontSize=" 20" 
+                   TextAlignment="Center" />
+
     </Grid>
 </Window>
