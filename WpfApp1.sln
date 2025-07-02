@@ -1,23 +1,72 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{99387A50-C862-4DC4-9DF8-63C760A26E61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExample1App2", "WpfExample1App2\WpfExample1App2.csproj", "{C3B60589-48A0-4F73-92FE-33D066F2D920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExample1App3", "WpfExample1App3\WpfExample1App3.csproj", "{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "apphost", "Example2WpfApp1\obj\Debug\net8.0-windows\apphost.exe", "{E888A571-D1E6-C737-3796-ED5CBF5EA1DF}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\vdvdu\source\repos\WpfApp1\Example2WpfApp1\obj\Debug\net8.0-windows\apphost.exe
+		RemoteMachine = DESKTOP-KI0LUBQ
+		StartingDirectory = C:\Users\vdvdu\source\repos\WpfApp1\Example2WpfApp1\obj\Debug\net8.0-windows
+		Environment = По умолчанию
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exmple2", "Exmple2", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2WpfApp2", "Example2WpfApp2\Example2WpfApp2.csproj", "{7098A5D4-8998-4B7E-8366-BBD7DD784F86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99387A50-C862-4DC4-9DF8-63C760A26E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99387A50-C862-4DC4-9DF8-63C760A26E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99387A50-C862-4DC4-9DF8-63C760A26E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99387A50-C862-4DC4-9DF8-63C760A26E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Debug|x64.Build.0 = Debug|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Release|x64.ActiveCfg = Release|Any CPU
+		{C3B60589-48A0-4F73-92FE-33D066F2D920}.Release|x64.Build.0 = Release|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC86FCD0-0EE9-4E24-93BF-5E8B7A1D4515}.Release|x64.Build.0 = Release|Any CPU
+		{E888A571-D1E6-C737-3796-ED5CBF5EA1DF}.Debug|Any CPU.ActiveCfg = Release|x64
+		{E888A571-D1E6-C737-3796-ED5CBF5EA1DF}.Debug|x64.ActiveCfg = Release|x64
+		{E888A571-D1E6-C737-3796-ED5CBF5EA1DF}.Release|Any CPU.ActiveCfg = Release|x64
+		{E888A571-D1E6-C737-3796-ED5CBF5EA1DF}.Release|x64.ActiveCfg = Release|x64
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Debug|x64.Build.0 = Debug|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|x64.ActiveCfg = Release|Any CPU
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7098A5D4-8998-4B7E-8366-BBD7DD784F86} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {910288E9-A449-4F2D-A35A-66B7A2A7268B}

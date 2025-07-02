@@ -8,24 +8,29 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace WpfApp1
+namespace WpfExample1App3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        private double width =  0;
+        private double height = 0;  
         public MainWindow()
         {
+            
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
-            int number = Convert.ToInt32(NumberTextBlock.Text) + 10;
-            NumberTextBlock.Text = number.ToString();
+            Random rnd = new Random();
+            Button button = sender as Button;
+            width = rnd.Next(0, (int)(MainGrid.ActualWidth-RunnigButton.Width));
+            height = rnd.Next(0, (int)(MainGrid.ActualHeight-RunnigButton.Height));
+            RunnigButton.Margin = new Thickness(width, height, 0, 0);
         }
     }
 }
