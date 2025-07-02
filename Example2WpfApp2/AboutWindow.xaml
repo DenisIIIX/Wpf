@@ -14,7 +14,7 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <TextBlock TextWrapping="Wrap" Text="Простой текстовый рекдактор" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Image Grid.Row="1" Source="C:\Users\vdvdu\source\repos\WpfApp1\Example2WpfApp2\Img\image0.jpeg"/>
+        <Image Grid.Row="1" Source="Img\image0.jpeg"/>
         <TextBlock Grid.Row="2" 
                    TextWrapping="Wrap"  
                    HorizontalAlignment="Center" 

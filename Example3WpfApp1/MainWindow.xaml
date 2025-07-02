@@ -1,0 +1,44 @@
+﻿<Window x:Class="Example3WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example3WpfApp1"
+        mc:Ignorable="d"
+        Title="Выбор курса" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Имя студента:" Margin="5,0,5,5"/>
+        <TextBox x:Name="StudentName" TextWrapping="Wrap" Text="" Width="Auto" Margin="5,0,5,5"/>
+        <Label Content="Факультет:" Margin="5,0,5,5"/>
+        <ComboBox x:Name="Faculty" Width="Auto" Margin="5,0,5,5">
+            <ComboBoxItem>Программирование</ComboBoxItem>
+            <ComboBoxItem>Дизайн</ComboBoxItem>
+            <ComboBoxItem>Менеджмент</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Доступные курсы:" Margin="5,0,5,5" />
+        <ListBox x:Name="Courses" Height="100" Margin="5,0,5,5" SelectionMode="Multiple">
+            <ListBoxItem>WPF</ListBoxItem>
+            <ListBoxItem>Основы C#</ListBoxItem>
+            <ListBoxItem>Базы данных</ListBoxItem>
+            <ListBoxItem>Вышивание крестиком</ListBoxItem>
+            <ListBoxItem>Устный счет</ListBoxItem>
+            <ListBoxItem>Чтение по диаглнали</ListBoxItem>
+        </ListBox>
+        <Label Content="Количество часов:" Margin="5,0,5,5"/>
+        <StackPanel Orientation="Horizontal" Margin="5,0,5,5">
+            <Slider x:Name="Hours" Width="200" Margin="5,0,5,5"
+                TickFrequency="1" IsSnapToTickEnabled="True"
+                Minimum="1" Maximum="40" Value="8"
+                ValueChanged="Slider_ValueChanged"/>
+            <TextBlock x:Name="HoursValue" Text="8" Width="30" 
+                VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        </StackPanel>
+        <Label Content="Форма обучения:"/>
+        <StackPanel Orientation="Horizontal" Margin="5,0,5,5">
+            <RadioButton x:Name="Full_time" Content="Очная" IsChecked="True" Margin="5,0,10,5"/>
+            <RadioButton x:Name="СorForm" Content="Заочная" Margin="10,0,0,0"/>
+        </StackPanel>
+        <CheckBox x:Name="Agreement" Content="Я согласен на обработку данных" Margin="5,0,5,5"/>
+        <Button x:Name="Sign_up" Content="Записаться" VerticalAlignment="Bottom" Margin="5,0,5,5" Padding="20,5" Click="Button_Click" />
+    </StackPanel>
+</Window>

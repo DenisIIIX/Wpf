@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exmple2", "Exmple2", "{36D5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2WpfApp2", "Example2WpfApp2\Example2WpfApp2.csproj", "{7098A5D4-8998-4B7E-8366-BBD7DD784F86}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example3", "Example3", "{34F077F5-97FB-4454-B339-E1285B3B4CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example3WpfApp1", "Example3WpfApp1\Example3WpfApp1.csproj", "{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,12 +65,21 @@ Global
 		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|x64.ActiveCfg = Release|Any CPU
 		{7098A5D4-8998-4B7E-8366-BBD7DD784F86}.Release|x64.Build.0 = Release|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Debug|x64.Build.0 = Debug|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Release|x64.ActiveCfg = Release|Any CPU
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7098A5D4-8998-4B7E-8366-BBD7DD784F86} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{6F97F9B1-11A6-480B-A711-C427CBC5A4B2} = {34F077F5-97FB-4454-B339-E1285B3B4CAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {910288E9-A449-4F2D-A35A-66B7A2A7268B}
